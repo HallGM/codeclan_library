@@ -27,8 +27,8 @@ library = {
 print(
     f"\nWelcome to {library['name']}!"
     f"\nHere we have collection of {len(library['books'])} books!"
-    f"\nSHH! Please be quiet!"
-    f"\nNo Smoking\n")
+    "\nSHH! Please be quiet!"
+    "\nNo Smoking\n")
 
 option = ""
 while option != "q":
